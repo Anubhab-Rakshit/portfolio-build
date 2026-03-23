@@ -13,7 +13,7 @@ A pixel-perfect, interactive macOS Sequoia-inspired portfolio built with **Next.
 ## 📸 Screenshots
 
 <div align="center">
-  <img src="https://via.placeholder.com/800x450?text=macOS+Sequoia+Desktop+Overview" alt="Desktop Overview" width="800">
+  <img src="/public/portfolio-readme-1.png" alt="Desktop Overview" width="800">
   <p><em>The main Desktop environment featuring interactive Widgets and the dynamic Dock.</em></p>
 </div>
 
@@ -22,14 +22,14 @@ A pixel-perfect, interactive macOS Sequoia-inspired portfolio built with **Next.
 <div align="center">
   <table border="0">
     <tr>
-      <td><img src="/public/portfolio-readme-1.png" alt="Landing page" width="400"></td>
-      <td><img src="/public/portfolio-readme-2.png" alt="Terminal and Project Hub" width="400"></td>
-      <td><img src="/public/portfolio-readme-3.png" alt="System settings and search" width="400"></td>
+      <td><img src="/public/portfolio-readme-2.png" alt="Finder and Terminal" width="400"></td>
+      <td><img src="/public/portfolio-readme-3.png" alt="System Settings + Search" width="400"></td>
+      <td><img src="/public/portfolio-readme-4.png" alt="Project Hub" width="400"></td>
     </tr>
     <tr>
-      <td align="center"><b>Landing Page</b></td>
-      <td align="center"><b>Terminal and Project Hub</b></td>
-      <td align="center"><b>System settings</b></td>
+      <td align="center"><b>Finder and Terminal</b></td>
+      <td align="center"><b>System Settings and Search</b></td>
+      <td align="center"><b>Project Hub</b></td>
     </tr>
   </table>
 </div>
