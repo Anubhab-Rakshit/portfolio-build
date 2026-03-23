@@ -1,36 +1,139 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# macOS Sequoia Portfolio 
 
-## Getting Started
+A pixel-perfect, interactive macOS Sequoia-inspired portfolio built with **Next.js 15**, **React 19**, and **Framer Motion**. This project showcases my work, skills, and experience through a fully functional operating system interface right in your browser.
 
-First, run the development server:
+> [!TIP]
+> **Try the Shortcuts!**
+> - **`⌘ + K`** or **`Ctrl + K`**: Open Spotlight Search
+> - **`Space`**: Quick Look on any project in Finder
+> - **Konami Code**: `↑ ↑ ↓ ↓ ← → ← → B A` (Try it on the Desktop!)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
+
+## 📸 Screenshots
+
+<div align="center">
+  <img src="https://via.placeholder.com/800x450?text=macOS+Sequoia+Desktop+Overview" alt="Desktop Overview" width="800">
+  <p><em>The main Desktop environment featuring interactive Widgets and the dynamic Dock.</em></p>
+</div>
+
+<br>
+
+<div align="center">
+  <table border="0">
+    <tr>
+      <td><img src="/public/portfolio-readme-1.png" alt="Landing page" width="400"></td>
+      <td><img src="/public/portfolio-readme-2.png" alt="Terminal and Project Hub" width="400"></td>
+      <td><img src="/public/portfolio-readme-3.png" alt="System settings and search" width="400"></td>
+    </tr>
+    <tr>
+      <td align="center"><b>Landing Page</b></td>
+      <td align="center"><b>Terminal and Project Hub</b></td>
+      <td align="center"><b>System settings</b></td>
+    </tr>
+  </table>
+</div>
+
+---
+
+## ✨ Features
+
+### 🖥️ Desktop Environment
+- **Sequoia Redesign:** Frosted glass effects, dynamic MenuBar, and a redesigned Control Center.
+- **Window Management:** Draggable, resizable, and minimizable windows with smooth standard macOS spring physics.
+- **Genie Effect:** Authentic "Genie" minimize animation to the Dock.
+- **Interactive Widgets:** Live analog clock and a functional Calendar widget on the desktop.
+
+### 🚀 Functional Apps
+- **📂 About Me (Finder):** Browse my resume, certificates, and achievements in a classic Finder layout.
+- **🏪 Project Hub (App Store):** Explore my featured projects with detailed pages and gallery views.
+- **📝 Define Me (Notes):** A dedicated space for my bio, career goals, and technical philosophy.
+- **✉️ Mail:** Contact me directly through a fully functional Mail client interface.
+- **🧭 Safari:** Read my technical blogs or browse internal/external links without leaving the "OS".
+- **💻 Terminal:** A custom-built, interactive shell with `neofetch`, file system Simulation, and 20+ commands.
+- **📸 Photos:** View my photography, certificates, and hobby clips in an Apple-style gallery.
+
+### 🔋 System Intelligence
+- **Spotlight Search:** Global search across projects, sections, and commands.
+- **Control Center:** Toggle Dark Mode, adjust brightness, and control background music (Perfect - Ed Sheeran).
+- **Dynamic Battery:** Real-time battery status and health monitoring directly from your browser.
+- **Responsive Design:** Seamlessly transitions to an **iOS-style Home Screen** on mobile devices.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** [Next.js 15](https://nextjs.org/) (App Router)
+- **Library:** [React 19](https://reactjs.org/)
+- **Animations:** [Framer Motion](https://www.framer.com/motion/)
+- **Styling:** [Tailwind CSS 4](https://tailwindcss.com/)
+- **Icons:** [Lucide React](https://lucide.dev/)
+- **UI Components:** [Radix UI](https://www.radix-ui.com/)
+- **Type Safety:** [TypeScript](https://www.typescriptlang.org/)
+
+---
+
+## 🏃 Getting Started
+
+### Prerequisites
+- [Node.js](https://nodejs.org/) (Latest LTS version)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Anubhab-Rakshit/portfolio-build.git
+   cd portfolio-build
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production:**
+   ```bash
+   npm run build
+   ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📁 Project Structure
 
-## Learn More
+```text
+├── app/               # Next.js App Router (Pages & Layout)
+├── components/        # Reusable UI components
+│   ├── apps/          # Individual windowed applications
+│   ├── desktop/       # Desktop shell, icons, and widgets
+│   ├── dock/          # Floating dock with magnification
+│   ├── menubar/       # Top system menu bar
+│   └── window/        # Core window management (DraggableWindow)
+├── contexts/          # Global state (WindowContext, ThemeContext)
+├── hooks/             # Custom system hooks
+├── lib/               # Portfolio data and utility functions
+├── public/            # Static assets (Images, Icons, Resume)
+└── styles/            # Global CSS / Tailwind configurations
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📞 Contact
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Name:** Anubhab Rakshit
+- **Email:** [coder.anubhab26@gmail.com](mailto:coder.anubhab26@gmail.com)
+- **LinkedIn:** [in/anubhab-rakshit](https://www.linkedin.com/in/anubhab-rakshit/)
+- **Website:** [anubhabrakshit.com](https://anubhabrakshit.com)
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<p align="center">
+  Built with ❤️ by Anubhab Rakshit
+</p>
